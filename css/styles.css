@@ -1,0 +1,224 @@
+/* цвет основного текста #757575 */
+/* вторичный цвет теста  #212121*/
+/* белый #FFFFFF */
+/* футер rgba(255, 255, 255, 0.6) */
+/* акцент  #2196F3; */
+/* цвет фона #FFFFFF */
+/* цвет фона вторичный #F5F4FA */
+
+:root {
+--primary-text-color: #757575;
+--title-text-color: #212121;
+--accent-color: #2196F3;
+--white-color: #FFFFFF;
+--logo-color: #000000;
+--bcg-color: #F5F4FA;
+--footer-color : rgba(255, 255, 255, 0.6);
+--bcg-footer:  rgba(47, 48, 58, 1);
+--bcg-button: #188CE8;
+}
+
+body {
+    color: var(--primary-text-color);
+    background-color: var(--white-color);
+    font-family: Roboto, sans-serif;
+    letter-spacing: 0.03em;
+}
+
+.list {
+    list-style: none;
+}
+
+/* Logo */
+.logo {
+    color: var(--logo-color);
+    text-decoration: none;
+}
+
+.logo, 
+.logo-footer {
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+}
+
+.logo .web-logo {
+    color: var(--accent-color);
+}
+
+ /* Site nav */
+ .site-nav, 
+ .auth-nav  {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+ }
+ .site-nav .link {
+    color: var(--title-text-color);
+    text-decoration: none;
+ }
+ .site-nav .link:hover,
+ .site-nav .link:focus {
+    color: var(--accent-color);
+ }
+ .site-nav .link.current {
+    color: var(--accent-color);
+ }
+
+ /* Auth nav */
+ .auth-nav .auth {
+    color: var(--primary-text-color);
+    text-decoration: none;
+ }
+
+ .auth-nav .auth:hover,
+ .auth-nav .auth:focus {
+    color: var(--accent-color);
+ }
+
+ /* Hero */
+ .hero .hero-title {
+    color: var(--white-color);
+    background-color: rgba(47, 48, 58, 1);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+.hero .hero-button {
+    color: var(--white-color);
+    background-color: var(--accent-color);
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    display: flex;
+    letter-spacing: 0.06em;
+    cursor: pointer;
+}
+.hero .hero-button:hover,
+.hero .hero-button:focus {
+    background-color: var(--bcg-button);
+}
+
+ /* Section */
+
+ .section-title {
+    color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+ }
+ .center {
+    text-align: center;
+ }
+
+ .feature-list .title {
+    color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+ }
+
+ .feature-list .text {
+    font-size: 14px;
+    line-height: 1.71;
+ }
+
+
+ /* Our team */
+ .team-bgr {
+    background-color: var(--bcg-color);
+ }
+.team-title, 
+.team-text {
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+}
+.team .team-title {
+    color: var(--title-text-color);
+    font-weight: 500;        
+}
+
+
+/* Portfolio */
+
+.portfolio-hero {
+    color: var(--title-text-color);
+}
+
+/* Buttons */
+.button {
+    color: var(--title-text-color);
+    background-color: var(--bcg-color);
+    letter-spacing: 0.03em;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    cursor: pointer;
+}
+.button:hover,
+.button:focus
+{
+    color: var(--white-color);
+    background-color: var(--accent-color);
+}
+
+/* Portfolio-section */
+
+.portfolio-link {
+    text-decoration: none;
+}
+
+.title-spacing {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    text-decoration: none;
+}
+.section-text {
+    color: var(--primary-text-color);
+    font-size: 16px;
+    line-height: 1.88;
+    
+}
+
+/* footer */
+.footer {
+    background-color: var(--bcg-footer);
+}
+.logo-footer {
+    color: var(--white-color);
+    text-decoration: none;
+}
+.logo-footer .web-footer {
+    color: var(--accent-color);
+}
+.footer-address {
+    font-size: 14px;
+    line-height: 1.71;
+}
+.address {
+    color: var(--white-color);  
+    text-decoration: none;
+}
+.mail-tel {
+    color: var(--footer-color);
+    text-decoration: none;
+}
+.address:hover, 
+.address:focus {
+    color: var(--accent-color);
+}
+.mail-tel:hover,
+.mail-tel:focus {
+    color: var(--accent-color);
+}
