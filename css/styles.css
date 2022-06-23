@@ -141,13 +141,15 @@ body {
 /* HERO */
 .hero {
   text-align: center;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  background-color: rgba(47, 48, 58, 1);
 }
 .hero .hero-title {
-  padding-top: 200px;
   margin-top: 0;
   margin-bottom: 30px;
   color: var(--white-color);
-  background-color: rgba(47, 48, 58, 1);
+
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -179,9 +181,6 @@ body {
   background-color: var(--bcg-button);
 }
 
-.btn-bottom {
-  padding-bottom: 200px;
-}
 /* SECTION */
 .section {
   padding-top: 94px;
@@ -297,7 +296,6 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin-top: 94px;
   margin-bottom: 50px;
 }
 .portfolio-btn .item {
@@ -391,7 +389,6 @@ body {
 
 /* footer */
 .footer {
-  padding-left: 215px;
   padding-top: 60px;
   padding-bottom: 60px;
   background-color: var(--bcg-footer);
